@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Test.gd" type="Script" id=1]
-[ext_resource path="res://ShaderToImage/ShaderToImage.tscn" type="PackedScene" id=2]
-[ext_resource path="res://ShaderToImage/ShaderToImage_1px.png" type="Texture" id=3]
+[ext_resource path="res://addons/ShaderToImage/ShaderToImage.tscn" type="PackedScene" id=2]
+[ext_resource path="res://addons/ShaderToImage/ShaderToImage_1px.png" type="Texture" id=3]
 
 [node name="Test" type="Control"]
 anchor_right = 1.0
@@ -187,8 +187,9 @@ margin_top = 121.108
 margin_right = 792.0
 margin_bottom = 449.108
 access = 2
-current_dir = "C:/"
-current_path = "C:/"
+current_dir = "/home/leroy/projects/systemnauts/thirdparty/godot-shader-to-image"
+current_path = "/home/leroy/projects/systemnauts/thirdparty/godot-shader-to-image/"
+
 [connection signal="pressed" from="Panel/Time/EnableTime" to="." method="_on_EnableTime_pressed"]
 [connection signal="pressed" from="Panel/Generate" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Panel/Save as" to="." method="_on_Save_as_pressed"]
